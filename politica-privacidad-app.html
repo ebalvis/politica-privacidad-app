@@ -4,44 +4,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Política de Privacidad</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      background-color: white;
+      padding: 2rem;
+      max-width: 800px;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e88e5;
+    }
+
+    h2 {
+      color: #1565c0;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.2rem;
+      margin-top: 2rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      line-height: 1.6;
+    }
+
+    p {
+      line-height: 1.7;
+    }
+
+    a {
+      color: #0d47a1;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      background-color: #f1f1f1;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
 </head>
 <body>
-  <h1>Política de Privacidad</h1>
-  <p>Esta aplicación recopila y utiliza datos de localización (mediante señales WiFi y sensores del dispositivo) con el único propósito de estimar la posición del usuario dentro de un edificio.</p>
+  <div class="container">
+    <h1>Política de Privacidad</h1>
+    <p>Esta aplicación recopila y utiliza datos de localización (mediante señales WiFi y sensores del dispositivo) con el único propósito de estimar la posición del usuario dentro de un edificio.</p>
 
-  <h2>Datos recopilados</h2>
-  <ul>
-    <li>Intensidad de señal WiFi (RSSI)</li>
-    <li>Dirección MAC anonimizada de puntos de acceso</li>
-    <li>Coordenadas aproximadas de ubicación</li>
-  </ul>
+    <h2>Datos recopilados</h2>
+    <ul>
+      <li>Intensidad de señal WiFi (RSSI)</li>
+      <li>Dirección MAC anonimizada de puntos de acceso</li>
+      <li>Coordenadas aproximadas de ubicación</li>
+    </ul>
 
-  <h2>Finalidad</h2>
-  <p>Los datos se usan exclusivamente para:</p>
-  <ul>
-    <li>Determinar la posición relativa del usuario en tiempo real</li>
-    <li>Mejorar la precisión mediante técnicas de interpolación y filtro de Kalman</li>
-  </ul>
+    <h2>Finalidad</h2>
+    <p>Los datos se usan exclusivamente para:</p>
+    <ul>
+      <li>Determinar la posición relativa del usuario en tiempo real</li>
+      <li>Mejorar la precisión mediante técnicas de interpolación y filtro de Kalman</li>
+    </ul>
 
-  <h2>No se recopilan</h2>
-  <ul>
-    <li>Datos personales identificables</li>
-    <li>Información de otros sensores no relacionados</li>
-  </ul>
+    <h2>No se recopilan</h2>
+    <ul>
+      <li>Datos personales identificables</li>
+      <li>Información de otros sensores no relacionados</li>
+    </ul>
 
-  <h2>Compartición de datos</h2>
-  <p>Los datos no se comparten con terceros y toda la información se procesa localmente en el dispositivo.</p>
+    <h2>Compartición de datos</h2>
+    <p>Los datos no se comparten con terceros y toda la información se procesa localmente en el dispositivo.</p>
 
-  <h2>Permisos utilizados</h2>
-  <ul>
-    <li><code>ACCESS_FINE_LOCATION</code>: para acceder a la intensidad de señal WiFi (requisito del sistema Android).</li>
-    <li><code>ACCESS_WIFI_STATE</code>: para leer la información de redes cercanas.</li>
-  </ul>
+    <h2>Permisos utilizados</h2>
+    <ul>
+      <li><code>ACCESS_FINE_LOCATION</code>: para acceder a la intensidad de señal WiFi (requisito del sistema Android).</li>
+      <li><code>ACCESS_WIFI_STATE</code>: para leer la información de redes cercanas.</li>
+    </ul>
 
-  <h2>Seguridad</h2>
-  <p>No se transmite ningún dato a servidores externos.</p>
+    <h2>Seguridad</h2>
+    <p>No se transmite ningún dato a servidores externos.</p>
 
-  <h2>Contacto</h2>
-  <p>Para cualquier duda o sugerencia: <a href="mailto:eduardo@innebo.es">eduardo@innebo.es</a></p>
+    <h2>Contacto</h2>
+    <p>Para cualquier duda o sugerencia: <a href="mailto:ebalvis@uvigo.es">ebalvis@uvigo.es</a></p>
+  </div>
 </body>
 </html>
