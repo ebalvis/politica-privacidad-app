@@ -3,118 +3,278 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - TheEye Monitor</title>
+    <title>Pol铆tica de Privacidad - PULSE Monitor</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
             color: #333;
+            background: #f8f9fa;
         }
-        h1 { color: #1a237e; border-bottom: 2px solid #1a237e; padding-bottom: 10px; }
-        h2 { color: #3949ab; margin-top: 30px; }
-        .update-date { color: #666; font-style: italic; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .contact { background: #f5f5f5; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { 
+            color: #1976d2; 
+            border-bottom: 3px solid #1976d2; 
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        h2 { 
+            color: #1565c0; 
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #1976d2;
+            margin-top: 25px;
+        }
+        .update-date { 
+            color: #666; 
+            font-style: italic;
+            margin-bottom: 30px;
+            padding: 10px 15px;
+            background: #e3f2fd;
+            border-radius: 6px;
+        }
+        ul { 
+            padding-left: 25px;
+            margin: 15px 0;
+        }
+        li { 
+            margin-bottom: 10px; 
+        }
+        .highlight {
+            background: #fff3e0;
+            padding: 15px 20px;
+            border-left: 4px solid #ff9800;
+            border-radius: 0 6px 6px 0;
+            margin: 20px 0;
+        }
+        .contact { 
+            background: #e8f5e9;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 40px;
+            border: 1px solid #c8e6c9;
+        }
+        .contact h2 {
+            margin-top: 0;
+            color: #2e7d32;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        th {
+            background: #f5f5f5;
+            font-weight: 600;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo img {
+            max-width: 120px;
+        }
     </style>
 </head>
 <body>
-    <h1>Política de Privacidad de TheEye Monitor</h1>
-    <p class="update-date">Última actualización: Febrero 2025</p>
+    <div class="container">
+        <h1>馃敀 Pol铆tica de Privacidad - PULSE Monitor</h1>
+        <p class="update-date">馃搮 脷ltima actualizaci贸n: Febrero 2025</p>
 
-    <h2>1. Introducción</h2>
-    <p>
-        TheEye Monitor es una extensión de navegador desarrollada por la Universidad de Vigo 
-        para la supervisión de exámenes en entornos educativos. Esta política describe cómo 
-        recopilamos, usamos y protegemos la información durante las sesiones de monitorización.
-    </p>
-
-    <h2>2. Información que recopilamos</h2>
-    <p>Durante una sesión de monitorización activa, la extensión recopila:</p>
-    <ul>
-        <li><strong>URLs visitadas:</strong> Direcciones de las páginas web accedidas durante el examen</li>
-        <li><strong>Títulos de páginas:</strong> Títulos de las pestañas abiertas</li>
-        <li><strong>Detección de IA:</strong> Registro de acceso a sitios de inteligencia artificial</li>
-        <li><strong>Tiempos de actividad:</strong> Duración de la sesión y tiempo activo</li>
-        <li><strong>Eventos de navegación:</strong> Apertura, cierre y cambio de pestañas</li>
-    </ul>
-    <p><strong>No recopilamos:</strong></p>
-    <ul>
-        <li>Contenido de las páginas visitadas</li>
-        <li>Contraseñas o credenciales</li>
-        <li>Datos personales fuera del contexto del examen</li>
-        <li>Información cuando la monitorización no está activa</li>
-    </ul>
-
-    <h2>3. Cuándo se recopilan datos</h2>
-    <p>
-        La extensión <strong>solo recopila datos cuando la monitorización está explícitamente activada</strong> 
-        por la aplicación de escritorio TheEye durante un examen. Fuera de las sesiones de examen, 
-        la extensión permanece inactiva y no recopila ninguna información.
-    </p>
-
-    <h2>4. Cómo usamos la información</h2>
-    <p>Los datos recopilados se utilizan exclusivamente para:</p>
-    <ul>
-        <li>Supervisar la integridad académica durante exámenes online</li>
-        <li>Detectar el uso no autorizado de herramientas de IA</li>
-        <li>Generar informes de actividad para el profesorado</li>
-        <li>Verificar que los estudiantes cumplan las normas del examen</li>
-    </ul>
-
-    <h2>5. Almacenamiento y transmisión de datos</h2>
-    <ul>
-        <li>Los datos se transmiten a la aplicación de escritorio TheEye instalada en el equipo local</li>
-        <li>Desde TheEye, los datos se envían al servidor de la institución educativa</li>
-        <li>La comunicación se realiza mediante protocolos seguros</li>
-        <li>Los datos se almacenan en los servidores de la institución según sus políticas de retención</li>
-    </ul>
-
-    <h2>6. Retención de datos</h2>
-    <p>
-        Los datos de monitorización se conservan según las políticas de la institución educativa, 
-        típicamente hasta la finalización del período de revisión de calificaciones o según 
-        la normativa académica aplicable.
-    </p>
-
-    <h2>7. Derechos del usuario</h2>
-    <p>Los estudiantes tienen derecho a:</p>
-    <ul>
-        <li>Ser informados cuando la monitorización está activa</li>
-        <li>Solicitar acceso a los datos recopilados durante sus exámenes</li>
-        <li>Solicitar la rectificación de datos incorrectos</li>
-        <li>Presentar reclamaciones ante la institución educativa</li>
-    </ul>
-
-    <h2>8. Seguridad</h2>
-    <p>
-        Implementamos medidas técnicas y organizativas para proteger los datos contra 
-        acceso no autorizado, alteración o destrucción. La comunicación entre la extensión 
-        y la aplicación de escritorio utiliza el protocolo de Native Messaging de Chrome, 
-        que está aislado del contenido web.
-    </p>
-
-    <h2>9. Cambios en esta política</h2>
-    <p>
-        Podemos actualizar esta política ocasionalmente. Los cambios significativos se 
-        comunicarán a través de la institución educativa. La fecha de última actualización 
-        se indica al principio de este documento.
-    </p>
-
-    <div class="contact">
-        <h2>10. Contacto</h2>
+        <h2>1. Introducci贸n</h2>
         <p>
-            Para preguntas sobre esta política de privacidad o el tratamiento de datos:
+            PULSE Monitor es una extensi贸n de navegador desarrollada por la <strong>Universidad de Vigo</strong> 
+            como parte del sistema de supervisi贸n de ex谩menes online PULSE/TheEye. Esta pol铆tica de privacidad 
+            describe qu茅 informaci贸n recopilamos, c贸mo la utilizamos y c贸mo la protegemos durante las sesiones 
+            de monitorizaci贸n de ex谩menes.
         </p>
+
+        <div class="highlight">
+            <strong>鈿狅笍 Importante:</strong> Esta extensi贸n est谩 dise帽ada exclusivamente para uso institucional 
+            en entornos educativos. Solo recopila datos durante sesiones de examen activas y cuando la 
+            aplicaci贸n de escritorio PULSE/TheEye est谩 ejecut谩ndose.
+        </div>
+
+        <h2>2. Informaci贸n que recopilamos</h2>
+        
+        <h3>2.1 Durante sesiones de monitorizaci贸n activas</h3>
+        <table>
+            <tr>
+                <th>Tipo de dato</th>
+                <th>Descripci贸n</th>
+                <th>Prop贸sito</th>
+            </tr>
+            <tr>
+                <td>URLs visitadas</td>
+                <td>Direcciones de p谩ginas web accedidas</td>
+                <td>Detectar acceso a sitios no permitidos</td>
+            </tr>
+            <tr>
+                <td>T铆tulos de p谩ginas</td>
+                <td>T铆tulos de las pesta帽as abiertas</td>
+                <td>Contexto adicional para supervisi贸n</td>
+            </tr>
+            <tr>
+                <td>Interacciones con IA</td>
+                <td>Prompts enviados y respuestas recibidas de herramientas de IA</td>
+                <td>Detectar uso de asistentes de IA durante ex谩menes</td>
+            </tr>
+            <tr>
+                <td>Eventos de navegaci贸n</td>
+                <td>Apertura, cierre y cambio de pesta帽as</td>
+                <td>Registro de actividad durante el examen</td>
+            </tr>
+            <tr>
+                <td>Informaci贸n de Moodle</td>
+                <td>ID de usuario, curso y actividad (cuando aplica)</td>
+                <td>Identificar al estudiante y el examen</td>
+            </tr>
+        </table>
+
+        <h3>2.2 Informaci贸n que NO recopilamos</h3>
+        <ul>
+            <li>鉂?Contenido completo de p谩ginas web visitadas (solo URLs y t铆tulos)</li>
+            <li>鉂?Contrase帽as, credenciales o datos de formularios</li>
+            <li>鉂?Historial de navegaci贸n fuera de sesiones de examen</li>
+            <li>鉂?Datos de navegaci贸n en modo inc贸gnito</li>
+            <li>鉂?Informaci贸n personal no relacionada con el examen</li>
+            <li>鉂?Grabaciones de audio, video o pantalla</li>
+        </ul>
+
+        <h2>3. Cu谩ndo se recopilan datos</h2>
         <p>
-            <strong>Universidad de Vigo</strong><br>
-            Departamento de [Tu Departamento]<br>
-            Email: [tu-email@uvigo.es]<br>
-            Teléfono: [teléfono]
+            La extensi贸n <strong>solo transmite datos cuando se cumplen TODAS estas condiciones</strong>:
         </p>
+        <ul>
+            <li>鉁?La aplicaci贸n de escritorio PULSE/TheEye est谩 ejecut谩ndose</li>
+            <li>鉁?Existe una sesi贸n de examen activa</li>
+            <li>鉁?El estudiante ha iniciado sesi贸n en el sistema de monitorizaci贸n</li>
+        </ul>
+        <p>
+            Fuera de sesiones de examen, la extensi贸n permanece inactiva y no transmite informaci贸n, 
+            aunque puede almacenar temporalmente la lista de sitios prohibidos para su funcionamiento.
+        </p>
+
+        <h2>4. C贸mo utilizamos la informaci贸n</h2>
+        <p>Los datos recopilados se utilizan exclusivamente para:</p>
+        <ul>
+            <li>馃搳 Supervisar la integridad acad茅mica durante ex谩menes online</li>
+            <li>馃毇 Detectar y bloquear acceso a sitios web no permitidos</li>
+            <li>馃 Identificar el uso de herramientas de inteligencia artificial</li>
+            <li>馃摑 Generar informes de actividad para revisi贸n del profesorado</li>
+            <li>鉁?Verificar el cumplimiento de las normas del examen</li>
+        </ul>
+
+        <h2>5. Transmisi贸n y almacenamiento de datos</h2>
+        <ul>
+            <li><strong>Transmisi贸n local:</strong> Los datos se env铆an a la aplicaci贸n PULSE/TheEye instalada en el mismo equipo mediante Native Messaging (comunicaci贸n local, no Internet)</li>
+            <li><strong>Transmisi贸n a servidor:</strong> Desde PULSE/TheEye, los datos se env铆an a los servidores de la instituci贸n educativa</li>
+            <li><strong>Almacenamiento local temporal:</strong> La extensi贸n puede almacenar temporalmente en el navegador:
+                <ul>
+                    <li>Lista de URLs prohibidas (para funcionamiento offline)</li>
+                    <li>Registro temporal de interacciones (como respaldo)</li>
+                </ul>
+            </li>
+            <li><strong>No usamos servicios de terceros:</strong> No enviamos datos a Google Analytics, servidores publicitarios ni ning煤n servicio externo</li>
+        </ul>
+
+        <h2>6. Bloqueo de sitios prohibidos</h2>
+        <p>
+            La extensi贸n puede bloquear autom谩ticamente el acceso a sitios web incluidos en una lista 
+            configurada por la instituci贸n. Cuando esto ocurre:
+        </p>
+        <ul>
+            <li>Se muestra un aviso explicativo al estudiante</li>
+            <li>Se registra el intento de acceso</li>
+            <li>La pesta帽a se cierra autom谩ticamente tras mostrar el aviso</li>
+        </ul>
+
+        <h2>7. Retenci贸n de datos</h2>
+        <p>
+            Los datos de monitorizaci贸n se conservan seg煤n las pol铆ticas de la instituci贸n educativa, 
+            t铆picamente:
+        </p>
+        <ul>
+            <li>Durante el per铆odo de revisi贸n de calificaciones</li>
+            <li>Hasta la resoluci贸n de posibles reclamaciones</li>
+            <li>Seg煤n la normativa acad茅mica aplicable (generalmente 1-5 a帽os)</li>
+        </ul>
+        <p>
+            El almacenamiento local en el navegador se limpia peri贸dicamente y puede ser eliminado 
+            manualmente por el usuario.
+        </p>
+
+        <h2>8. Derechos del usuario</h2>
+        <p>Los estudiantes tienen derecho a:</p>
+        <ul>
+            <li>馃搵 Ser informados cuando la monitorizaci贸n est谩 activa</li>
+            <li>馃憗锔?Solicitar acceso a los datos recopilados durante sus ex谩menes</li>
+            <li>鉁忥笍 Solicitar rectificaci贸n de datos incorrectos</li>
+            <li>馃摓 Contactar con el responsable de protecci贸n de datos de la instituci贸n</li>
+            <li>鈿栵笍 Presentar reclamaciones ante la autoridad de protecci贸n de datos</li>
+        </ul>
+
+        <h2>9. Seguridad</h2>
+        <p>Implementamos las siguientes medidas de seguridad:</p>
+        <ul>
+            <li>馃敀 Native Messaging para comunicaci贸n local aislada del contenido web</li>
+            <li>馃攼 Conexi贸n segura (HTTPS) para transmisi贸n a servidores institucionales</li>
+            <li>馃洝锔?Validaci贸n de origen para evitar manipulaci贸n de datos</li>
+            <li>馃摝 Almacenamiento local encriptado por el navegador</li>
+        </ul>
+
+        <h2>10. Cambios en esta pol铆tica</h2>
+        <p>
+            Podemos actualizar esta pol铆tica ocasionalmente. Los cambios significativos se comunicar谩n 
+            a trav茅s de la instituci贸n educativa y se reflejar谩n en la fecha de actualizaci贸n al 
+            inicio de este documento.
+        </p>
+
+        <h2>11. Base legal</h2>
+        <p>
+            El tratamiento de datos se realiza bajo las siguientes bases legales del RGPD:
+        </p>
+        <ul>
+            <li><strong>Inter茅s leg铆timo (Art. 6.1.f):</strong> Garantizar la integridad acad茅mica en evaluaciones</li>
+            <li><strong>Obligaci贸n legal (Art. 6.1.c):</strong> Cumplimiento de normativa acad茅mica universitaria</li>
+            <li><strong>Consentimiento impl铆cito:</strong> Al participar en un examen supervisado, el estudiante acepta las condiciones de monitorizaci贸n previamente comunicadas</li>
+        </ul>
+
+        <div class="contact">
+            <h2>馃摟 Contacto</h2>
+            <p>Para preguntas sobre esta pol铆tica de privacidad o el tratamiento de datos:</p>
+            <p>
+                <strong>Universidad de Vigo</strong><br>
+                Delegado de Protecci贸n de Datos<br>
+                Email: dpd@uvigo.gal<br>
+                Web: <a href="https://www.uvigo.gal">www.uvigo.gal</a>
+            </p>
+            <p style="margin-top: 20px;">
+                <strong>Equipo de desarrollo PULSE</strong><br>
+                Email: [ebalvisl@uvigo.es]
+            </p>
+        </div>
     </div>
 </body>
 </html>
